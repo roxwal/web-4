@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Tutorial</title>
+  <link rel="stylesheet" href="stylejs.css">
+  <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">Js Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="java.html">
+          <span class="hide-text">Home JS</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="kelebihan.html">
+          <span class="hide-text"> Kelebihan JavaScript</span></a>
+      </li>
+      <li>
+        <a href="keterbatasan.html">
+          <span class="hide-text">Keterbatasan JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="konsep.html">
+          <span class="hide-text">Konsep Dasar dalam JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="perkembangan.html">
+          <span class="hide-text">Perkembangan dan Penggunaan JS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Kelebihan JavaScript</h2><br>
+    <div class="container">
+        <p>Kombinasi antara kecepatan, kompatibilitas, ekosistem yang besar, dan kemudahan belajar membuat JavaScript menjadi pilihan utama untuk pengembangan aplikasi modern.
+        </div>
+        <br>
+          <br>
+          <p>
+            <strong>1. Kecepatan :</strong>JavaScript dieksekusi langsung di dalam browser pengguna, sehingga tidak memerlukan waktu tambahan untuk kompilasi. Hal ini membuatnya sangat cepat untuk operasi-operasi pada halaman web.
+          </p>
+          
+          <p>
+            <strong>2. Kompatibilitas Universal:</strong>JavaScript didukung oleh hampir semua browser modern tanpa perlu instalasi tambahan, membuatnya dapat diakses dengan mudah oleh pengguna di seluruh dunia.
+          </p>
+          
+          <p>
+            <strong>3. Ekosistem Besar:</strong> Dengan ribuan library dan framework yang tersedia, pengembang dapat memanfaatkan alat yang sudah ada untuk mempercepat proses pengembangan.
+          </p>
+
+          <p>
+            <strong>4. Kemudahan Belajar :</strong> Sintaks JavaScript dirancang agar sederhana dan mudah dipahami, terutama bagi pemula. Bahkan dengan sedikit pemahaman tentang HTML dan CSS, seseorang dapat mulai menulis JavaScript dan melihat hasilnya langsung di browser. Contohnya, membuat fungsi dasar atau menambahkan interaksi sederhana ke halaman web dapat dipelajari dalam hitungan hari.
+            Selain itu, banyak sumber belajar gratis tersedia secara online, seperti kursus, video tutorial, dan dokumentasi resmi, yang memudahkan pemula untuk memulai perjalanan mereka dalam pemrograman JavaScript.
+          </p>
+
+        </div>
+      </main>
+    </body>
+</html>

@@ -1,0 +1,593 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(13, 255, 0);
+    width: 99,5%;
+    gap: 10px;
+    position:-webkit-sticky;
+    border-bottom: 1px solid #ddd;
+    background-image: url(Screenshot\ 2024-12-01\ 124552.png);
+    background-size: cover;
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-nav1 img{
+    height: 80px;
+    width: 250px;
+}
+.container-nav1{
+    width: 290px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.button-nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 7.1px 15px 4px 15px;
+    color: white;
+}
+.button-nav li{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+.button-nav li a:hover{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.button-nav{
+    width: 572px;
+    padding: 18px;
+}
+.button-nav ul{
+    gap: 15px;
+    display: flex;
+}
+.container-intro{
+    background-image: url(Screenshot\ 2024-12-01\ 121326.png);
+    width: 100%;
+    height: 630px;
+    position: relative;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+}
+.img-intro {
+    padding-top: 70.7px;
+    height: 730px;
+}
+.img-intro img{
+    width: 702px;
+}
+.container-ucapan {
+    color: white;
+    width: 760px;
+    padding-top: 85px;
+}
+.container-ucapan h1{
+    width: 650px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 85px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.container-ucapan p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 8px 0px;
+    padding-bottom: 35px;
+}
+.container-btn{
+    display: flex;
+    gap: 20px;
+}
+.btn-start{
+    text-align: center;
+    height: 35px;
+    width: 160px;
+}
+.btn-start a{
+    padding: 15px 40px;    
+    color: #ddd;
+    font-weight: bold;
+    background: linear-gradient(#164876, #3099fa);
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-start a:hover{
+    padding: 15px 40px;    
+    color: #ddd;
+    background: linear-gradient(#164876, #0070d9);
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.informasi{
+    text-align: center;
+    height: 35px;
+    width: 160px;
+}
+.informasi a{
+    font-weight: bold;
+    padding: 15px 40px;    
+    color: #ddd;
+    border: 1px solid #3099fa;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.informasi a:hover{
+    padding: 15px 40px;    
+    color: #ddd;
+    background: linear-gradient(#164876, #0070d9);
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-materi{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+}
+.tengah{
+    text-align: center;
+}
+.tengah .our{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3099fa;
+    margin-bottom: 0px;
+}
+.tengah h2{
+    font-size: 68px;
+    margin: 0px;
+    font-family: "comic sans ms";
+}
+.materi-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: 1000px;
+    align-items: center;
+    width: 1400px;
+}
+.materi-pelajaran{
+    padding-top: 40px;
+    width: 200;
+    text-align: center;
+    width: 486px;
+    height: 476px;
+    border: 1px solid #3099fa;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.materi-pelajaran img{
+    width: 210px;
+}
+.materi-pelajaran h2{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.materi-list a{
+    text-decoration: none;
+    width: 25px;
+    height: 10px;
+    background: linear-gradient(#164876, #0070d9);
+    border: 1px solid #3099fa;
+    padding: 10px 29px;
+    border-radius: 10px;
+    color: white;
+}
+.materi-list a:hover{
+    text-decoration: none;
+    width: 25px;
+    height: 10px;
+    padding: 10px 29px;
+    background: linear-gradient(#164876, #0070d9);
+    border-radius: 10px;
+    color: white;
+}
+.quis-container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+.tbl-quis {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #3099fa; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-decoration: none; /* Hilangkan garis bawah */
+    border-radius: 5px; /* Sudut membulat */
+  }
+  
+.tbl-quis:hover {
+    background-color: #0070d9; /* Warna latar belakang saat hover */
+  }
+
+.quis-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #86bbfc; /* Warna latar belakang */
+    text-align: center; 
+    align-items: center;
+    width: 1400px;
+}
+  
+.quis-container{
+    max-width: 1400px;
+    margin: 10px auto;
+    align-items: center;
+}
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 100px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-logo {
+    max-width: 250px;
+    width: 200px;
+    padding-left: 50px;
+  }
+  
+  .footer-logo .logo {
+    width: 320px;
+  }
+  
+  .footer-section,
+  .footer-contact,
+  .footer-download {
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  
+  .footer-section h3,
+  .footer-contact h3,
+  .footer-download h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul,
+  .footer-contact ul,
+  .footer-download ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li,
+  .footer-contact p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-contact p,
+  .footer-download img {
+    display: block;
+  }
+  
+  .footer-download a {
+    display: inline-block;
+    margin: 5px 0;
+  }
+  
+  .footer-download img {
+    width: 120px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .social-media img {
+    width: 24px;
+    height: 24px;
+  }
+  
+.footer-bottom p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+  
+.available {
+    background-color: #00cc99;
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+  
+.available:hover {
+    background-color: #00b38f;
+}
+.social-media a:hover img {
+    filter: brightness(0.8);
+    transform: scale(1.2);
+}
+  
+.footer-section h3 {
+    color: #3099fa;
+}
+.footer-section ul li:hover {
+    color: #94cdf9;
+    cursor: pointer;
+}
+.footer-contact p:hover {
+    color: #94cdf9;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 2;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #333;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 200px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-menu ul li {
+  border-bottom: 1px solid #444;
+}
+
+.mobile-menu ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mobile-menu ul li a:hover {
+  background-color: #28a745;
+}
+@media screen and (max-width: 767px) {
+    nav{
+        display: flex;
+        width: 97.5%;
+    }
+    .container-nav1 img{
+    width: 150px;
+    height: 65px;
+    }
+    .container-nav1{
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+
+    .hamburger-menu {
+    display: flex;
+    padding-top: 20px;
+    }
+
+    .mobile-menu {
+    display: none;
+    }
+
+    .mobile-menu.active{
+    display: block;
+    }
+    .button-nav{
+        display: none;
+    }
+    .container-intro{
+        width: 100%;
+        background-size: cover;
+    }
+    .img-intro{
+        display: none;
+    }
+    .container-ucapan{
+        padding-top: 125px;
+        text-align: center;
+        width: 100%;
+    }
+    .container-ucapan h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .container-ucapan p{
+        font-size: 16px;
+    }
+    .container-btn {
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+    .btn-start a{
+        padding: 14px 22px;
+    }
+    .btn-start a:hover{
+        padding: 14px 22px;
+    }
+    .informasi a{
+        padding: 14px 22px;
+    }
+    .informasi a:hover{
+        padding: 14px 22px;
+    }
+    .container-materi {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .materi-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 550px;
+        gap: 0px;
+    }
+    .materi-pelajaran {
+        width: 150px;
+        height: 190px;
+        padding-top: 20px;
+    }
+    .materi-pelajaran img{
+        width: 85px;
+    }
+    .materi-pelajaran h2{
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    }
+    .materi-list a{
+        font-size: 12px;
+        padding: 8px 20px;
+        background: linear-gradient(#164876, #0070d9);
+    }
+    .materi-list a:hover{
+        font-size: 12px;
+        padding: 8px 20px;
+        background: linear-gradient(#164876, #0070d9);
+    }
+    .tengah .our{
+        font-size: 17px;
+    }
+    .tengah h2{
+        font-size: 50px;
+    }
+    .quis-container{
+        width: 89%;
+        background-size: cover;
+        margin-bottom: 25px;
+    }
+    .footer {
+        width: 97.5%;
+        background-size: cover;
+        padding: 10px 5px;
+        
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-container{
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    .footer-section ul li{
+        font-size: 10px;
+    }
+    .footer-section h3{
+        font-size: 14px;
+    }
+    .footer-contact p{
+        font-size: 10px;
+    }
+    .footer-contact h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    nav{
+        width: 98.7%;
+        background-size: cover;
+    }
+    .container-nav1{
+        padding-left: 10px;
+    }
+    .img-intro{
+        display: none;
+    }
+    .container-ucapan{
+        text-align: center;
+        width: 100%;
+    }
+    .container-ucapan h1{
+        width: 100%;
+    }
+    .container-btn{
+        justify-content: center;
+    }
+    .materi-list{
+        width:100%;
+        justify-content: space-evenly;
+        display: flex;
+        background-size: cover;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .materi-pelajaran{
+        width: 300px;
+    }
+    .quis-container{
+        width: 93.5%;
+    }
+    .footer{
+        padding: 0px;
+    }
+    .footer-container{
+        justify-content: space-around;
+    }
+    .footer-logo{
+        padding-top: 27px;
+        padding-left: 0px;
+    }
+    .footer-logo .logo{
+        width: 200px;
+    }
+}
+    

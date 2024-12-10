@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="css.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">CSS Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="css.html">
+          <span class="hide-text">CSS Materi</span>
+        </a>
+      </li>
+      <li>
+        <a href="Selektor.html">
+          <span class="hide-text">Selekor CSS</span></a>
+      </li>
+      <li>
+        <a href="Properti.html">
+          <span class="hide-text">Properti CSS</span>
+        </a>
+      </li>
+      <li>
+        <a href="Model.html">
+          <span class="hide-text">Model Kotak CSS</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="respon.html">
+          <span class="hide-text">Responsivitas dengan CSS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2> Responsivitas dengan CSS</h2><br>
+    <div class="container">
+      <p>
+        Responsivitas dalam desain web berarti tampilan halaman dapat beradaptasi dengan berbagai perangkat, seperti komputer, tablet, dan ponsel. CSS menyediakan beberapa teknik untuk menciptakan desain yang fleksibel dan responsif.
+      </p>
+        </div>
+        <!-- <h2 class="section-title" id="index.html">Materi CSS</h2> -->
+          <br>
+          <p>
+            <strong>1. Media Query:</strong> Media Query adalah fitur CSS yang memungkinkan pengaturan gaya berdasarkan kondisi perangkat.
+            Kondisi yang bisa digunakan meliputi: <br>
+            Lebar layar (max-width, min-width) <br>
+            Resolusi perangkat Orientasi layar (portrait atau landscape) <br>
+            <br>
+            Media Query memungkinkan pengaturan gaya yang spesifik, seperti: <br>
+            Menyembunyikan elemen di layar kecil. <br>
+            Mengubah ukuran font berdasarkan lebar layar. <br>
+            Menyesuaikan tata letak elemen.
+          </p>
+          <p>
+            <strong>2. Flexbox (Flexible Box):</strong> Flexbox adalah metode tata letak CSS yang dirancang untuk menyusun elemen dalam satu dimensi (baris atau kolom). <br>
+            Cocok untuk membuat tata letak responsif, seperti: <br>
+            Menyusun elemen secara sejajar dalam satu baris. <br>
+            Menyesuaikan elemen agar memiliki ukuran proporsional. <br>
+            Memusatkan elemen secara horizontal dan vertikal. <br>
+            Flexbox secara otomatis menyesuaikan posisi elemen saat ukuran layar berubah.
+          </p>
+          <p>
+            <strong>3. Grid Layout:</strong> Grid Layout adalah sistem tata letak berbasis grid dua dimensi. <br>
+            Cocok untuk menyusun elemen secara baris dan kolom secara fleksibel. <br>
+            Fitur Grid Layout: <br>
+            Membagi halaman menjadi area grid yang dinamis. <br>
+            Menempatkan elemen pada posisi tertentu di grid. <br>
+            Membuat tata letak yang konsisten untuk berbagai ukuran layar.
+          </p>
+          <p>
+            <strong>4. Pentingnya Responsivitas:</strong> Desain responsif memastikan pengalaman pengguna yang optimal di semua perangkat, meningkatkan aksesibilitas dan kenyamanan. Kombinasi Media Query, Flexbox, dan Grid Layout memberikan fleksibilitas tinggi dalam mengelola tata letak modern.
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+        </div>
+      </main>
+    </body>
+</html>

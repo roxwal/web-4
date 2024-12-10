@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial</title>
+  <link rel="stylesheet" href="htmlstyles.css">
+  <script type="text/javascript" src="html.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">HTML Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="materiindex.html">
+          <span class="hide-text">Home HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="Struktur.html"><span class="hide-text">Struktur Dasar HTML</span></a>
+      </li>
+      <li>
+        <a href="Elemen.html">
+          <span class="hide-text">Elemen Utama HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="atribut.html">
+          <span class="hide-text">Atribut dalam HTML</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="interaksi.html">
+          <span class="hide-text">Elemen Tambahan Interaksi</span>
+        </a>
+      </li>
+      <li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Elemen Tambahan HTML</h2><br><br>
+    <div class="container">
+      <p> HTML adalah singkatan dari Hypertext Markup Language. <br>
+        HTML Merupakan bahasa markup standar yang digunakan untuk membuat dan menyusun halaman web. <br>
+        HTML bukanlah bahasa pemrograman, melainkan bahasa markup yang berfungsi untuk mengatur struktur dan format konten di dalam dokumen web.</p>
+        </div>
+        <br>
+          <p>
+            <strong>1. Formulir  :</strong>Tag :<code class="class"> < from > </code>
+            Formulir digunakan untuk mengumpulkan data dari pengguna, seperti nama, email, atau pesan. Formulir dapat terdiri dari berbagai elemen seperti input teks (< input >), tombol kirim (< button >), dan label (< label >) untuk memberikan deskripsi pada input. Ini sangat penting untuk aplikasi web yang memerlukan interaksi pengguna, seperti registrasi atau pengisian survei.
+          </p>
+          
+          <p>
+            <strong>2. Tabel  :</strong>Tag :<code class="class"> < table > </code>
+            Tabel digunakan untuk menyusun data dalam format grid yang terstruktur. Tag < tr > digunakan untuk baris, < td > untuk kolom, dan < th > untuk header kolom. Tabel sangat berguna untuk menampilkan data terstruktur yang membutuhkan keteraturan, seperti jadwal, harga produk, atau data statistik.
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+    
+          
+        </div>
+      </main>
+    </body>
+</html>

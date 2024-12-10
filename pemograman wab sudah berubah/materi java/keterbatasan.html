@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Tutorial</title>
+  <link rel="stylesheet" href="stylejs.css">
+  <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">Js Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="java.html">
+          <span class="hide-text">Home JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="kelebihan.html">
+          <span class="hide-text"> Kelebihan JavaScript</span></a>
+      </li>
+      <li class="active">
+        <a href="keterbatasan.html">
+          <span class="hide-text">Keterbatasan JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="konsep.html">
+          <span class="hide-text">Konsep Dasar dalam JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="perkembangan.html">
+          <span class="hide-text">Perkembangan dan Penggunaan JS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Keterbatasan JavaScript</h2><br>
+    <div class="container">
+        <p>Kombinasi antara Keamanan, Performa, dan konsistensi browser membuat JavaScript menjadi pilihan utama untuk pengembangan aplikasi modern.
+        </div>
+        <br>
+          <br>
+          <p>
+            <strong>1. Keamanan :</strong>JavaScript berjalan di sisi klien (client-side), yang artinya kode tersebut dapat diakses oleh pengguna melalui alat debugging browser. Akibatnya, siapa saja dapat melihat atau bahkan memodifikasi kode tersebut untuk tujuan yang tidak diinginkan. Contohnya, seseorang dapat memanipulasi validasi formulir yang dilakukan di sisi klien. Oleh karena itu, penting untuk selalu mengimplementasikan keamanan tambahan di sisi server untuk melindungi data sensitif.
+          </p>
+          
+          <p>
+            <strong>2. Performa pada tugas berat:</strong>Meskipun JavaScript sangat cepat untuk tugas-tugas sederhana, bahasa ini bukan pilihan terbaik untuk operasi yang membutuhkan daya komputasi besar seperti pemrosesan gambar, machine learning, atau simulasi fisik. Bahasa seperti C++ atau Python lebih cocok untuk jenis tugas ini karena dirancang untuk menangani perhitungan kompleks secara efisien.
+          </p>
+          
+          <p>
+            <strong>3. Konsistensi browser:</strong> Walaupun standar ECMAScript telah membantu menyelaraskan perilaku JavaScript di berbagai browser, terkadang masih ada perbedaan kecil yang harus diatasi oleh pengembang. Misalnya, implementasi fitur baru mungkin memerlukan waktu untuk didukung secara penuh di semua browser, sehingga pengembang perlu membuat solusi alternatif atau menggunakan polyfill.
+          </p>
+        </div>
+      </main>
+    </body>
+</html>

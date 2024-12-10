@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Tutorial</title>
+  <link rel="stylesheet" href="stylejs.css">
+  <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">Js Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="java.html">
+          <span class="hide-text">Home JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="kelebihan.html">
+          <span class="hide-text"> Kelebihan JavaScript</span></a>
+      </li>
+      <li>
+        <a href="keterbatasan.html">
+          <span class="hide-text">Keterbatasan JS</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="konsep.html">
+          <span class="hide-text">Konsep Dasar dalam JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="perkembangan.html">
+          <span class="hide-text">Perkembangan dan Penggunaan JS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Konsep Dasar Dalam JavaScript</h2><br>
+    <div class="container">
+        <p>JavaScript adalah bahasa pemrograman paling populer di dunia.<br />
+            JavaScript adalah bahasa pemrograman Web.<br />
+            JavaScript mudah dipelajari.</br>
+            Tutorial ini akan mengajarkan Anda JavaScript dari tingkat dasar hingga mahir.
+        </div>
+        <br>
+          <br>
+          <p>
+            <strong>1. Variabel :</strong>Variabel digunakan untuk menyimpan data. JavaScript mendukung deklarasi variabel dengan var, let, dan const, masing-masing memiliki aturan penggunaannya sendiri.
+          </p>
+          
+          <p>
+            <strong>2. Tipe Data:</strong>JavaScript memiliki tipe data primitif seperti string, number, boolean, undefined, dan null, serta tipe data kompleks seperti object dan array.
+          </p>
+          
+          <p>
+            <strong>3. Fungsi:</strong> Fungsi adalah blok kode yang dapat digunakan kembali untuk menjalankan tugas tertentu. JavaScript mendukung berbagai cara mendefinisikan fungsi, termasuk fungsi biasa, fungsi panah (arrow function), dan fungsi anonim.
+          </p>
+          <p>
+            <strong>4. Event:</strong> Mekanisme untuk menangkap dan menangani interaksi pengguna, seperti klik, ketikan, atau gerakan mouse.
+          </p>
+          <p>
+            <strong>5. Error Handling:</strong> Untuk menangani kesalahan, JavaScript menyediakan struktur seperti try-catch-finally untuk menangkap error dan mencegah aplikasi berhenti secara tiba-tiba.
+          </p>
+        </div>
+      </main>
+    </body>
+</html>

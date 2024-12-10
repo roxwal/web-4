@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Tutorial</title>
+  <link rel="stylesheet" href="stylejs.css">
+  <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">Js Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="java.html">
+          <span class="hide-text">Home JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="kelebihan.html">
+          <span class="hide-text"> Kelebihan JavaScript</span></a>
+      </li>
+      <li>
+        <a href="keterbatasan.html">
+          <span class="hide-text">Keterbatasan JS</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="konsep.html">
+          <span class="hide-text">Konsep Dasar dalam JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="perkembangan.html">
+          <span class="hide-text">Perkembangan dan Penggunaan JS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Perkembangan dan Penggunaan JavaScript</h2><br>
+    <div class="container">
+        <p>JavaScript terus berevolusi dengan pembaruan rutin dari standar ECMAScript. Beberapa fitur terbaru meliputi dan penggunaan JavaScript :
+        </div>
+        <br>
+          <br>
+          <p>
+            <strong>1. Destructuring :</strong>Memudahkan ekstraksi nilai dari objek atau array.
+          </p>
+          
+          <p>
+            <strong>2. Class :</strong>Sintaks yang lebih jelas untuk bekerja dengan konsep berorientasi objek.
+          </p>
+          
+          <p>
+            <strong>3. Modules :</strong> Membagi kode menjadi file yang terpisah dan dapat digunakan kembali.
+          </p>
+          <p>
+            <strong>4. Web Front-End :</strong> Library seperti React, Angular, dan Vue mempermudah pembuatan antarmuka pengguna yang dinamis.
+          </p>
+          <p>
+            <strong>5. Web Back-End: </strong> Node.js memungkinkan pengembangan server dengan performa tinggi.
+          </p>
+          <p>
+            <strong>6. Mobile Development: </strong> Framework seperti React Native memungkinkan pengembangan aplikasi lintas platform dengan kode berbasis JavaScript.
+          </p>
+          <p>
+            <strong>7. Desktop Application: </strong> Electron memungkinkan pengembang membuat aplikasi desktop seperti Visual Studio Code menggunakan teknologi web.
+          </p>
+          <p>
+            <strong>8. Game Development: </strong>  Framework seperti Phaser mendukung pengembangan game berbasis browser dengan grafis dan logika interaktif.
+          </p>
+        </div>
+      </main>
+    </body>
+</html>

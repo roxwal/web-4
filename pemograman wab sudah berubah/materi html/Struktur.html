@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial</title>
+  <link rel="stylesheet" href="htmlstyles.css">
+  <script type="text/javascript" src="html.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">HTML Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="materiindex.html">
+          <span class="hide-text">Home HTML</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="Struktur.html"><span class="hide-text">Struktur Dasar HTML</span></a>
+      </li>
+      <li>
+        <a href="Elemen.html">
+          <span class="hide-text">Elemen Utama HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="atribut.html">
+          <span class="hide-text">Atribut dalam HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="interaksi.html">
+          <span class="hide-text">Elemen Tambahan Interaksi</span>
+        </a>
+      </li>
+      <li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Struktur Dasar HTML</h2><br>
+    <div class="container">
+      <p>HTML memiliki struktur hierarki yang membagi dokumen menjadi tiga bagian utama, masing-masing dengan fungsi spesifik untuk menyusun dan
+           menyajikan halaman web. Berikut penjelasannya:.</p>
+        </div>
+        <h2 class="section-title" id="index.html">Struktur Html</h2>
+          <p>
+            <strong>1. Deklarasi Dokumen :</strong>Bagian ini terletak di awal dokumen HTML dan digunakan untuk memberi tahu browser bahwa dokumen menggunakan versi HTML tertentu.
+            Dalam HTML5, deklarasi ini sangat sederhana dan memastikan kompatibilitas dengan browser modern. Dalam HTML5, deklarasi ini sangat sederhana dan memastikan kompatibilitas dengan browser modern.
+          </p>
+    
+          <p>
+            <strong>2. Bagian Kepala (Head) :</strong> Bagian ini mengandung informasi yang tidak langsung terlihat oleh pengguna tetapi penting bagi browser dan mesin pencari.
+            Fungsi utama bagian ini meliputi:
+            Judul Halaman: Menentukan nama halaman yang tampil di tab browser.
+            Metadata: Informasi tambahan tentang halaman, seperti deskripsi, kata kunci, dan pengaturan karakter.
+            Link Eksternal: Menyertakan file CSS untuk gaya atau skrip JavaScript untuk fungsi tambahan.
+            Hingga saat ini versi HTML sudah mencapai versi 5 yang dirilis pada tahun 2012, Versi HTML 5 ini merupakan terusan dari perpanjangan versi HTML 4.01 yang sebelumnya digunakan oleh kebanyakan orang.
+          </p>
+    
+          <p>
+            <strong>3. Bagian Tubuh (Body) :</strong> Bagian Tubuh (Body)
+
+            Bagian ini berisi semua konten yang akan ditampilkan kepada pengguna di browser.
+            Konten dalam bagian tubuh dapat berupa:
+            Teks: Paragraf, judul, atau daftar.
+            Gambar dan Video: Elemen multimedia untuk memperkaya halaman.
+            Tautan dan Formulir: Untuk navigasi atau interaksi pengguna.
+            Bagian ini adalah inti dari halaman web karena semua elemen yang terlihat berasal dari sini.
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+    
+          
+        </div>
+      </main>
+    </body>
+</html>

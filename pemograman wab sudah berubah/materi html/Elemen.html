@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial</title>
+  <link rel="stylesheet" href="htmlstyles.css">
+  <script type="text/javascript" src="html.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">HTML Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="materiindex.html">
+          <span class="hide-text">Home HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="Struktur.html"><span class="hide-text">Struktur Dasar HTML</span></a>
+      </li>
+      <li class="active">
+        <a href="Elemen.html">
+          <span class="hide-text">Elemen Utama HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="interaksi.html">
+          <span class="hide-text">Elemen Tambahan Interaksi</span>
+        </a>
+      </li>
+      <li>
+        <a href="Elemen.html">
+          <span class="hide-text">Elemen Utama HTML</span>
+        </a>
+      </li>
+      <li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Elemen Utama Dalam Html</h2><br><br>
+    <div class="container">
+      <p> HTML adalah singkatan dari Hypertext Markup Language. <br>
+        HTML Merupakan bahasa markup standar yang digunakan untuk membuat dan menyusun halaman web. <br>
+        HTML bukanlah bahasa pemrograman, melainkan bahasa markup yang berfungsi untuk mengatur struktur dan format konten di dalam dokumen web.</p>
+        </div>
+        <h2 class="section-title" id="index.html">Elemen Html</h2><br>
+          <p>
+            <strong>1. Heading (Judul) :</strong>Tag: <code class="class">< h1 > Hingga <  h6 ></code>
+                Heading digunakan untuk memberikan struktur pada dokumen dengan berbagai tingkatan. Tag ini membantu menyusun hierarki informasi, dari judul utama hingga subjudul.
+          </p>
+    
+          <p>
+            <strong>2. paragraf :</strong> Tag : <code class="class">< p ></code>
+                Elemen ini digunakan untuk menampilkan teks dalam format paragraf, membuatnya lebih rapi dan mudah dibaca.
+          </>
+    
+          <p>
+            <strong>3. Tautan (Link) :</strong> Tag : <code class="class">< a ></code>
+            Tautan digunakan untuk menghubungkan halaman web satu sama lain atau menuju sumber eksternal. Tautan sering memiliki atribut seperti href untuk menentukan alamat tujuan.
+          </p>
+
+          <p>
+            <strong>4. Gambar :</strong> Tag : <code class="class">< img ></code>
+            Elemen ini digunakan untuk menampilkan gambar di halaman web. Tag ini sering dilengkapi atribut seperti src untuk sumber gambar dan alt untuk deskripsi.
+          </p>
+
+          <p>
+            <strong>5. Daftar :</strong> Daftar Tidak Berurutan
+            Tag : <code class="class">< ul > untuk daftar utama dan < li > untuk item dalam daftar.</code>
+            Digunakan untuk membuat daftar dengan simbol seperti titik. <br>
+            Daftar Berurutan
+            Tag: <code class="class"> < ol > untuk daftar utama dan < li > untuk item dalam daftar.</code>
+            Digunakan untuk membuat daftar yang bernomor atau berhuruf.
+
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+    
+          
+        </div>
+      </main>
+    </body>
+</html>

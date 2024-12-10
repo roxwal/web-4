@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="css.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">CSS Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li class="active">
+        <a href="css.html">
+          <span class="hide-text">CSS Materi</span>
+        </a>
+      </li>
+      <li>
+        <a href="Selektor.html">
+          <span class="hide-text">Selekor CSS</span></a>
+      </li>
+      <li>
+        <a href="Properti.html">
+          <span class="hide-text">Properti CSS</span>
+        </a>
+      </li>
+      <li>
+        <a href="Model.html">
+          <span class="hide-text">Model Kotak CSS</span>
+        </a>
+      </li>
+      <li>
+        <a href="respon.html">
+          <span class="hide-text">Responsivitas dengan CSS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>CSS Materi</h2><br>
+    <div class="container">
+      <p>
+        CSS adalah bahasa yang kita gunakan untuk menata dokumen HTML.<br />
+        CSS menjelaskan bagaimana elemen HTML harus ditampilkan.<br />
+        Tutorial ini akan mengajarkan Anda CSS dari dasar hingga tingkat lanjut.
+      </p>
+
+        </div>
+        <!-- <h2 class="section-title" id="index.html">Materi CSS</h2> -->
+          <br>
+          <p>
+            <strong>1. Pengertian CSS:</strong> CSS adalah singkatan dari Cascading
+            Style Sheets, yaitu bahasa yang digunakan untuk mendesain tampilan
+            halaman web. CSS memungkinkan kita mengatur warna, font, layout, dan
+            berbagai aspek tampilan lainnya di HTML, sehingga halaman terlihat lebih
+            menarik dan mudah dibaca.
+          </p>
+          <p>
+            <strong>2. Fungsi Dan Manfaat CSS:</strong> Memisahkan Konten dan Desain, HTML digunakan untuk struktur konten, sementara CSS mengurus tampilan, membuat pemeliharaan kode lebih mudah.
+            Efisiensi, Menggunakan CSS dapat menghemat waktu karena satu file CSS dapat digunakan untuk banyak halaman.
+            Konsistensi Desain, CSS membantu menjaga keseragaman tampilan di seluruh halaman web.
+          </p>
+          <p>
+            <strong>3. Bagaimana Cara Kerja CSS:</strong> CSS bekerja ketika browser memuat halaman website. Untuk menerapkan pengaturan tampilan HTML yang telah ditentukan dengan kode CSS, prosesnya meliputi beberapa langkah. 
+            Mulanya, browser akan memuat file HTML dan CSS (jika kodenya ditulis sebagai external CSS). Kemudian, browser mengubah keduanya menjadi document object model (DOM). Ini adalah komponen yang mewakili file HTML dan CSS dalam memori perangkat pengunjung website.
+            Setelah HTML dan CSS diubah menjadi DOM, browser akan melakukan rendering, proses di mana browser menerapkan pengaturan di kode CSS pada elemen-elemen HTML. Hasilnya adalah halaman website yang tampil di layar perangkat Anda.
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+        </div>
+      </main>
+    </body>
+</html>

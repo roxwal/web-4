@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="css.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">CSS Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="css.html">
+          <span class="hide-text">CSS Materi</span>
+        </a>
+      </li>
+      <li>
+        <a href="Selektor.html">
+          <span class="hide-text">Selekor CSS</span></a>
+      </li>
+      <li>
+        <a href="Properti.html">
+          <span class="hide-text">Properti CSS</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="Model.html">
+          <span class="hide-text">Model Kotak CSS</span>
+        </a>
+      </li>
+      <li>
+        <a href="respon.html">
+          <span class="hide-text">Responsivitas dengan CSS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2> Model Kotak CSS (Box Model)</h2><br>
+    <div class="container">
+      <p>
+        Model Kotak CSS adalah konsep dasar dalam CSS yang menggambarkan bagaimana elemen HTML diatur dan berinteraksi dalam sebuah halaman web. Setiap elemen HTML diperlakukan sebagai sebuah kotak yang terdiri dari empat lapisan utama, dari dalam ke luar:
+      </p>
+        </div>
+        <!-- <h2 class="section-title" id="index.html">Materi CSS</h2> -->
+          <br>
+          <p>
+            <strong>1. Konten:</strong> Bagian utama elemen yang berisi isi seperti teks, gambar, atau elemen lain.
+            Ukuran konten ditentukan oleh properti seperti width dan height.            
+          </p>
+          <p>
+            <strong>2. padding:</strong> Ruang antara konten dan garis tepi (border).
+            Padding menciptakan jarak dalam elemen, membuat konten lebih "lega".
+            Dapat diatur untuk setiap sisi elemen: <br>
+            padding-top (atas) <br>
+            padding-right (kanan) <br>
+            padding-bottom (bawah) <br>
+            padding-left (kiri) <br>
+          </p>
+          <p>
+            <strong>3. Border:</strong> Garis yang mengelilingi elemen, memisahkan padding dari margin.
+            Properti yang dapat diatur meliputi: <br>
+            Ketebalan: Menggunakan border-width. <br>
+            Gaya: Seperti solid, dashed, atau none. <br>
+            Warna: Menggunakan border-color. <br>
+            Border dapat diterapkan untuk setiap sisi atau keseluruhan elemen.
+          </p>
+          <p>
+            <strong>4. Margin:</strong> Ruang di luar border, memisahkan elemen dengan elemen lainnya.
+            Margin menentukan jarak antar elemen dalam tata letak halaman.
+            Dapat diatur untuk setiap sisi elemen: <br>
+            margin-top (atas) <br>
+            margin-right (kanan) <br>
+            margin-bottom (bawah) <br>
+            margin-left (kiri)
+            
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+        </div>
+      </main>
+    </body>
+</html>

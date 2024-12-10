@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Tutorial</title>
+  <link rel="stylesheet" href="stylejs.css">
+  <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">Js Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li class="active">
+        <a href="java.html">
+          <span class="hide-text">Home JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="kelebihan.html"><span class="hide-text"> Kelebihan JavaScript</span></a>
+      </li>
+      <li>
+        <a href="keterbatasan.html">
+          <span class="hide-text">Keterbatasan JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="konsep.html">
+          <span class="hide-text">Konsep Dasar dalam JS</span>
+        </a>
+      </li>
+      <li>
+        <a href="perkembangan.html">
+          <span class="hide-text">Perkembangan dan Penggunaan JS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>JS Home</h2><br>
+    <div class="container">
+        <p>JavaScript adalah bahasa pemrograman paling populer di dunia.<br />
+          JavaScript adalah bahasa pemrograman Web.<br />
+          JavaScript mudah dipelajari.</br>
+          Tutorial ini akan mengajarkan Anda JavaScript dari tingkat dasar hingga mahir.</p>
+        </div>
+          <br>
+          <p>
+            <strong>1. Apa Itu JavaScript? :</strong>JavaScript adalah bahasa pemrograman yang digunakan developer untuk membuat halaman web yang interaktif. 
+            Dari menyegarkan umpan media sosial hingga menampilkan animasi dan peta interaktif, fungsi JavaScript dapat meningkatkan pengalaman pengguna situs web. 
+            Sebagai bahasa skrip sisi klien, JavaScript adalah salah satu teknologi inti dari World Wide Web. Misalnya, saat menjelajah internet, 
+            kapan pun Anda melihat carousel gambar, menu tarik-turun klik untuk menampilkan, atau warna elemen yang berubah secara dinamis di halaman web,
+            Anda melihat efek JavaScript.
+          </p>
+          
+          <p>
+            <strong>2. Apa Kegunaan JavaScript? :</strong> Secara historis, halaman web statis, mirip dengan halaman dalam buku. Halaman statis terutama menampilkan informasi dalam tata letak tetap dan tidak melakukan semua yang kita harapkan saat ini dari situs web modern. JavaScript muncul sebagai teknologi sisi peramban untuk menjadikan aplikasi web lebih dinamis. Dengan JavaScript, browser dapat merespons interaksi pengguna dan mengubah tata letak konten di halaman web.
+            Ketika bahasanya sudah mapan, developer JavaScript membuat pustaka, kerangka kerja, serta praktik pemrograman, dan mulai menggunakannya di luar browser web. Saat ini, Anda dapat menggunakan JavaScript untuk pengembangan sisi klien dan sisi server. Kami menyediakan beberapa kasus penggunaan umum di subbagian berikut:
+            Secara historis, halaman web statis, mirip dengan halaman dalam buku. Halaman statis terutama menampilkan informasi dalam tata letak tetap dan tidak melakukan semua yang kita harapkan saat ini dari situs web modern. JavaScript muncul sebagai teknologi sisi peramban untuk menjadikan aplikasi web lebih dinamis. Dengan JavaScript, browser dapat merespons interaksi pengguna dan mengubah tata letak konten di halaman web.
+            Ketika bahasanya sudah mapan, developer JavaScript membuat pustaka, kerangka kerja, serta praktik pemrograman, dan mulai menggunakannya di luar browser web. Saat ini, Anda dapat menggunakan JavaScript untuk pengembangan sisi klien dan sisi server. Kami menyediakan beberapa kasus penggunaan umum di subbagian berikut:
+          </p>
+          
+          <p>
+            <strong>3. Bagaimana Cara Kerja JavaScript? :</strong> Semua bahasa pemrograman bekerja dengan menerjemahkan sintaks yang mirip bahasa Inggris ke dalam kode mesin, yang kemudian dijalankan oleh sistem operasi. JavaScript dikategorikan secara luas sebagai bahasa skrip, atau bahasa yang ditafsirkan.
+            Kode JavaScript ditafsirkan—yaitu, langsung diterjemahkan ke dalam kode bahasa mesin yang mendasarinya oleh mesin JavaScript. Dengan bahasa pemrograman lain, 
+            penyusun akan menyusun seluruh kode menjadi kode mesin dalam langkah terpisah. Jadi, semua bahasa skrip adalah bahasa pemrograman, 
+            tetapi tidak semua bahasa pemrograman adalah bahasa skrip.
+          </p>
+
+          <p>
+            <strong>4. Fungsi JavaScript :</strong> JavaScript memiliki beragam fungsi yang menjadikannya inti dari pengembangan web modern. Beberapa fungsi utamanya adalah: <br>
+            <br>
+            1.Manipulasi DOM (Document Object Model): <br>
+            JavaScript memungkinkan pengembang untuk menambahkan, mengubah, atau menghapus elemen dalam struktur HTML secara dinamis. Ini menciptakan pengalaman yang lebih kaya bagi pengguna karena halaman web dapat diperbarui tanpa perlu dimuat ulang sepenuhnya. <br>
+            <br>
+            2.Interaktivitas: <br>
+            JavaScript memungkinkan pengembangan fitur interaktif, seperti animasi, drop-down menu, validasi formulir, atau efek transisi. Hal ini membuat pengalaman pengguna lebih menarik dan responsif. <br>
+            <br>
+            3.Komunikasi Asinkron dengan Server: <br>
+            Dengan teknologi seperti AJAX (Asynchronous JavaScript and XML), JavaScript memungkinkan pengambilan dan pengiriman data dari server tanpa perlu merefresh halaman, memberikan pengalaman yang lebih mulus bagi pengguna. <br>
+            <br>
+            4.Pengembangan Web Modern: <br>
+            Library dan framework seperti React, Vue, dan Angular memanfaatkan JavaScript untuk menciptakan antarmuka pengguna yang kompleks dan canggih. <br>
+          </p>
+
+        </div>
+      </main>
+    </body>
+</html>

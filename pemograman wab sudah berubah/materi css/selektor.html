@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="css.js" defer></script>
+</head>
+<body>
+  <nav id="sidebar">
+    <br>
+    <span class="logo-js" claas="hide-text1">CSS Tutorial</span>
+    <ul>
+      <li>
+        <button onclick=toggleSidebar() id="toggle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+        </button>
+      </li>
+      <li>
+        <a href="css.html">
+          <span class="hide-text">CSS Materi</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="Selektor.html">
+          <span class="hide-text">Selekor CSS</span></a>
+      </li>
+      <li>
+        <a href="Properti.html">
+          <span class="hide-text">Properti CSS</span>
+        </a>
+      </li>
+      <li>
+        <a href="Model.html">
+          <span class="hide-text">Model Kotak CSS</span>
+        </a>
+      </li>
+      <li>
+        <a href="respon.html">
+          <span class="hide-text">Responsivitas dengan CSS</span>
+        </a>
+      </li>
+      <li>
+        <button onclick="goBack()" id="back-btn"  class="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            <span class="hide-text">Back</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2> Selector CSS</h2><br>
+    <div class="container">
+      <p>
+        Selektor adalah cara untuk menentukan elemen HTML mana yang akan diberi gaya oleh CSS. Berikut jenis-jenis selektor yang umum:
+      </p>
+        </div>
+        <!-- <h2 class="section-title" id="index.html">Materi CSS</h2> -->
+          <br>
+          <p>
+            <strong>1. Selektor Elemen:</strong> Mengatur gaya berdasarkan nama elemen HTML, seperti < p >, < div >, < h1 >.
+          </p>
+          <p>
+            <strong>2. Selektor ID:</strong> Mengatur elemen dengan atribut id. ID bersifat unik, sehingga hanya dapat diterapkan pada satu elemen.
+          </p>
+          <p>
+            <strong>3. Selektor Kelas:</strong> Mengatur elemen dengan atribut class. Kelas bisa diterapkan pada beberapa elemen.
+          </p>
+          <p>
+            <strong>4. Selektor Grup:</strong> Mengatur beberapa elemen sekaligus dengan memisahkannya menggunakan koma, misalnya h1, p, div.
+          </p>
+          <p>
+            <strong>3. Selektor Turunan:</strong> Mengatur elemen yang berada di dalam elemen lain. Contoh: div p untuk memilih < p > di dalam < div >.
+          </p>
+        <!-- ... sisa konten untuk Home ... -->
+        </div>
+      </main>
+    </body>
+</html>
